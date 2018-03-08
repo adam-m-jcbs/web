@@ -1,0 +1,2 @@
+- Add _site, .jekyll-metadata to gitignore
+- Would be nice to obfuscate email from bots, wish this was trivially available in Jekyll

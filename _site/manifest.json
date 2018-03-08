@@ -1,0 +1,15 @@
+{
+  "lang": "en-US",
+  "name": "Adam M. Jacobs",
+  "short_name": "AdamM.Jacobs",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}
