@@ -32,7 +32,7 @@
   {
     "title": "Notes",
     "excerpt": "\n",
-    "content": "This is a collection of notes on various topics that I wrote for my own\nreference that may be useful to the community as well.  Many are written using\nthe Jupyter Notebook, which I highly recommend.\n\n\n\n\nKey reactions in helium shells on sub-Chandrasekhar mass white dwarfs.\n\n\n\n\nA post-2007 bibliography [PDF] of research into sub-Chandrasekhar mass white dwarf explosions. BibTeX file.\n\n\n\n\nAccelerating Maestro's reaction calculations with OpenACC\n\n\n\n\nReactions in MESA\n\n\n\n\nBuilding a website with Jekyll\n\n\n\n\nInstalling CUDA Toolkit 8.0 and PGI 16.9 on Fedora 24\n\n",
+    "content": "This is a collection of notes on various topics that I wrote for my own\nreference that may be useful to the community as well.  Many are written using\nthe Jupyter Notebook, which I highly recommend.\n\n\n\n\n\nKey reactions in helium shells on sub-Chandrasekhar mass white dwarfs.\nA post-2007 bibliography [PDF] of research into sub-Chandrasekhar mass white dwarf explosions. BibTeX file.\nAccelerating Maestro's reaction calculations with OpenACC\nReactions in MESA\nBuilding a website with Jekyll\nInstalling CUDA Toolkit 8.0 and PGI 16.9 on Fedora 24\n\n\n\n\n",
     "url": "/notes/"
   },
   
