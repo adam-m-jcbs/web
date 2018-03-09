@@ -1,5 +1,6 @@
-This website was built with Jekyll using the `alembic-jekyll-theme` theme.
-These notes provide some documentation on the site and site maintenance.
+[This repo](https://github.com/adam-m-jcbs/web) contains the source for my 
+[website](http://amjacobs.net), built with Jekyll using the `alembic-jekyll-theme` theme.
+These notes provide some documentation of the site and site maintenance.
 
 ### Preparing to build the site
 To build this site and generally learn about Jekyll, I made use of some 
