@@ -8,7 +8,7 @@ This is a collection of notes on various topics that I wrote for my own
 reference that may be useful to the community as well.  Many are written using
 the [Jupyter Notebook](http://jupyter.org/), which I highly recommend.
 
-[Key reactions in helium shells on sub-Chandrasekhar mass white dwarfs](http://nbviewer.jupyter.org/url/amjacobs.net/assets/NBs/RxnsNotes.ipynb).
+[Key reactions in helium shells on sub-Chandrasekhar mass white dwarfs](http://nbviewer.jupyter.org/url/amjacobs.net/assets/NBs/RxnNotes.ipynb).
 
 A [post-2007 bibliography [PDF]](/assets/scbib.pdf) of research into sub-Chandrasekhar mass white dwarf explosions. [BibTeX file](/assets/scbib.bib). 
 
