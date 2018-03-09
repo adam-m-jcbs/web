@@ -47,6 +47,8 @@ exclude:
     - Gemfile.lock
     - TODO
     - README.md
+    - .git
+    - util
 
 # Build settings
 #markdown: kramdown
