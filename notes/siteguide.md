@@ -191,6 +191,30 @@ editing a text file, compiling, and git magic, just like when I code.
 Perhaps the easiest and cheapest way to deploy/host your site is to use GitHub pages.  The
 resources I linked at the beginning of these notes offer lots of details on how
 to do this.  The only reason I didn't is because I already had my website setup
-through a hosting service.  So here I will describe deploying your site to a
-remote server hosting the site.
+through a hosting service.  It also seems that
+[Netlify](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
+is a popular service for deploying Jekyll sites in an automated way with nice
+git integration.
 
+If you're like me and just have a remote server that hosts your site, you can do
+something like the `deploy.sh` script in my site repo's
+[`util/`](https://github.com/adam-m-jcbs/web/tree/master/util) directory:
+
+```
+#!/bin/bash
+#deploy.sh
+
+host_domain=amjacobs.net
+sync_command="cd web && date | tee -a gitsync.out gitsync.err > /dev/null && git pull 1>>gitsync.out 2>>gitsync.err"
+
+jekyll build
+git commit -am'Rebuild site.'
+git push
+
+ssh $host_domain "$sync_command"
+```
+
+Now when I need to update my site, I simply make the desired changes, commit
+them, and then execute the `deploy.sh` script in the site's root directory.
+Note that for this to work you will need to [setup ssh
+keys](https://gist.github.com/stormpython/9517102) for passwordless ssh access.
